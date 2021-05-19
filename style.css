@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* 共通部分
+-------------------------------- */
+body {
+  background-color: #F7F7F7;
+}
+
+/* ヘッダー
+-------------------------------- */
+.header-logo img {
+  width: 200px;
+}
+
+nav h1 {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  padding-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #432;
+}
+
+nav a:hover {
+  color: #0bd;
+}
+
+/* メインイメージ
+-------------------------------- */
+.main-image img {
+  width: 100%;
+  max-height: 400px;
+  background-color: LimeGreen;
+}
+
+/* メインコンテンツ
+-------------------------------- */
+.main-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  /* background-color: cyan; */
+}
+
+.main-contents .content {
+  /* background-color: blue; */
+  width: 74%;
+  height: 100%;
+}
+
+.main-contents .side-bar {
+  /* background-color: coral; */
+  width: 22%;
+  height: 50%;
+}
+
+.main-contents .content h2 {
+  border-bottom: 1px solid gray;
+  margin-top: 100px;
+}
+
+.content p {
+  letter-spacing: 0.8px;
+  width: 75%;
+}
+
+.main-contents .content h2:first-child {
+  margin-top: 0px;
+}
+
+.mahjong-tiles img {
+  width: 39px;
+  height: 46px;
+}
+
+.mahjong-tiles {
+  display: flex;
+}
+
+/* サイドバー */
+.image {
+  text-align: center;
+}
+
+.side-bar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.side-bar h3 {
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+
+/* フッター
+------------------------------ */
+footer {
+  background: LimeGreen;
+  text-align: center;
+  padding: 26px 0;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #fff;
+  font-size:
+}
